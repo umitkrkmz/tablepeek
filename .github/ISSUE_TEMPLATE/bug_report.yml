@@ -1,0 +1,75 @@
+name: Hata bildirimi / Bug report
+description: TablePeek'te karşılaştığınız bir sorunu bildirin. / Report a problem you ran into with TablePeek.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **⚠️ Gizli tablo paylaşmayın / Don't share private tables.** Banka ekstresi, maaş bordrosu gibi kişisel veriler içeren ekran görüntüleri eklemeyin. Örnek gerekiyorsa aynı düzende uydurma verilerle bir tablo kullanın.
+        Don't attach screenshots with personal data (bank statements, payslips…). If an example is needed, use a table with the same layout and made-up values.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Ne oldu? / What happened?
+      description: Ne yaptınız, ne bekliyordunuz, ne oldu? / What did you do, what did you expect, what happened?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feature
+    attributes:
+      label: Hangi özellik? / Which feature?
+      options:
+        - Alan seçme / yakalama — Selecting / capturing
+        - Tablo okuma (sütun/satır hatası) — Reading the table (column/row errors)
+        - Stüdyo düzenleme — Studio editing
+        - Sayı biçimi dönüştürme — Number format conversion
+        - Excel'e / başka programa yapıştırma — Pasting into Excel / another app
+        - CSV kaydetme — Saving CSV
+        - Ayarlar, kısayollar, başlangıç — Settings, shortcuts, startup
+        - Diğer / Other
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Tablo nereden? / Where was the table?
+      placeholder: "web sayfası / web page, PDF, Excel, banka paneli / bank portal, koyu tema / dark theme…"
+
+  - type: input
+    id: target
+    attributes:
+      label: Nereye yapıştırdınız? / Where did you paste?
+      placeholder: "Excel (TR), Excel (EN), Google Sheets, LibreOffice…"
+
+  - type: input
+    id: version
+    attributes:
+      label: TablePeek sürümü / TablePeek version
+      description: Ayarlar → Hakkında. / Settings → About.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Windows sürümü / Windows version
+      placeholder: "Windows 11 24H2"
+    validations:
+      required: true
+
+  - type: input
+    id: monitors
+    attributes:
+      label: Monitörler ve ölçekleme / Monitors and scaling
+      placeholder: "1 monitör %100 / 2 monitors: 100% + 150%"
+
+  - type: textarea
+    id: error-log
+    attributes:
+      label: Hata günlüğü (varsa) / Error log (if any)
+      description: Ayarlar → Hakkında → Hata günlüğünü aç. Yapıştırmadan önce içinde kişisel bilgi olmadığına bakın. / Settings → About → Open error log. Check it for personal data before pasting.
+      render: text
