@@ -27,7 +27,7 @@ TablePeek reads a table you see on your screen and pastes it into Excel cleanly.
 
 ## 1. Install and requirements
 
-- Installed from the **Microsoft Store**, which also keeps it up to date. A one-time purchase; no subscription.
+- Installed from the **[Microsoft Store](https://apps.microsoft.com/detail/9nv50jzqdsht)**, which also keeps it up to date. A one-time purchase; no subscription.
 - Windows 10 version 2004 or later, Windows 11 (x64 and ARM64).
 - At least one Windows **text recognition (OCR) language pack**. Windows usually has the one for its display language; for Turkish and English tables, having both is best (see [section 10](#10-text-recognition-language-packs)).
 - No internet connection needed.

@@ -27,7 +27,7 @@ TablePeek, ekranınızda gördüğünüz bir tabloyu okur ve Excel'e düzgünce 
 
 ## 1. Kurulum ve gereksinimler
 
-- **Microsoft Store**'dan kurulur, güncellemeleri Store'dan kendiliğinden gelir. Tek seferlik ödeme; abonelik yok.
+- **[Microsoft Store](https://apps.microsoft.com/detail/9nv50jzqdsht)**'dan kurulur, güncellemeleri Store'dan kendiliğinden gelir. Tek seferlik ödeme; abonelik yok.
 - Windows 10 sürüm 2004 ya da sonrası, Windows 11 (x64 ve ARM64).
 - Windows'ta en az bir **yazı tanıma (OCR) dil paketi**. Windows genellikle kendi görüntüleme dilininkini kurar; Türkçe ve İngilizce tablolar için ikisinin de kurulu olması en iyisidir (bkz. [bölüm 10](#10-yazı-tanıma-dil-paketleri)).
 - İnternet bağlantısı gerekmez.

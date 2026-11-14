@@ -8,8 +8,7 @@ A small Windows tool that reads a table on your screen and pastes it into Excel 
 
 **📖 [Türkçe kılavuz](docs/README.tr.md) · [English guide](docs/README.en.md)** · [Changelog](CHANGELOG.md) · [Gizlilik / Privacy](PRIVACY.md) · [Hata bildir / Report a problem](https://github.com/umitkrkmz/tablepeek/issues/new/choose)
 
-<!-- Store ID known after publishing: switch the link to https://apps.microsoft.com/detail/<store-id>?referrer=appbadge&mode=direct -->
-<a href="https://apps.microsoft.com/search?query=TablePeek"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="180" alt="Download from the Microsoft Store"></a>
+<a href="https://apps.microsoft.com/detail/9nv50jzqdsht?referrer=appbadge&mode=direct"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="180" alt="Download from the Microsoft Store"></a>
 
 <img src="docs/images/studio-tr.png" alt="TablePeek Stüdyo: ekrandan okunan tablo" width="720">
 
@@ -35,7 +34,7 @@ Bir web sayfasında, PDF'te, sunumda ya da kopyalanamayan bir uygulamada gördü
 - **Dürüst:** yazı tanımanın sık hatalarını (0/O, 1/I, kayıp nokta ve virgül, ₺ ve % işaretleri) düzeltir; emin olamadığı bir hücreyi tahmin etmez, okunduğu gibi bırakır.
 - **Küçük ve gizli:** internete hiç bağlanmaz; hesap, reklam ve telemetri yok. Bildirim alanında bekler. Türkçe ve İngilizce, açık ve koyu tema.
 
-TablePeek [Microsoft Store](https://apps.microsoft.com/search?query=TablePeek)'da, tek seferlik ödemeyle. Kısayollar, Stüdyo, ayarlar ve yazı tanıma dil paketleri: **[Türkçe kılavuz](docs/README.tr.md)**.
+TablePeek [Microsoft Store](https://apps.microsoft.com/detail/9nv50jzqdsht)'da, tek seferlik ödemeyle. Kısayollar, Stüdyo, ayarlar ve yazı tanıma dil paketleri: **[Türkçe kılavuz](docs/README.tr.md)**.
 
 ## English
 
@@ -48,7 +47,7 @@ No need to type in a table you see on a web page, in a PDF, in a presentation or
 - **Honest:** it fixes common recognition mistakes (0/O, 1/I, lost dots and commas, currency and % signs); a cell it can't be sure of is never guessed, it is left as read.
 - **Small and private:** never goes online; no account, ads or telemetry. Waits in the notification area. Turkish and English, light and dark theme.
 
-TablePeek is on the [Microsoft Store](https://apps.microsoft.com/search?query=TablePeek), a one-time purchase. Shortcuts, the Studio, settings and text recognition language packs: **[English guide](docs/README.en.md)**.
+TablePeek is on the [Microsoft Store](https://apps.microsoft.com/detail/9nv50jzqdsht), a one-time purchase. Shortcuts, the Studio, settings and text recognition language packs: **[English guide](docs/README.en.md)**.
 
 ## Bu repo / This repo
 

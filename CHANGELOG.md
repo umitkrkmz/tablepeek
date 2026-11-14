@@ -11,7 +11,7 @@ This file lists notable changes to TablePeek, by release.
 
 ## Türkçe
 
-### [Yayınlanmadı] — 0.1.0
+### [0.1.0] — 2026-11-14
 
 İlk sürüm.
 
@@ -44,7 +44,7 @@ This file lists notable changes to TablePeek, by release.
 
 ## English
 
-### [Unreleased] — 0.1.0
+### [0.1.0] — 2026-11-14
 
 First release.
 
