@@ -11,6 +11,11 @@ This file lists notable changes to TablePeek, by release.
 
 ## Türkçe
 
+### [Yayınlanmadı] — 0.1.1
+
+**Düzeltme**
+- Store sayfasından, başka bir bilgisayardan ya da kodla alınan teşekkür eklentisi bazen tanınmıyordu (Windows'un lisans önbelleği geç güncelleniyordu). TablePeek artık sahipliği Store'un kendisine de soruyor; satın alma onaylanınca ekstralar hemen açılıyor, Destek ol sayfası açıldığında da yeniden denetleniyor.
+
 ### [0.1.0] — 2026-11-14
 
 İlk sürüm.
@@ -43,6 +48,11 @@ This file lists notable changes to TablePeek, by release.
 ---
 
 ## English
+
+### [Unreleased] — 0.1.1
+
+**Fixed**
+- A thank-you add-on bought on the Store page, on another PC or with a code was sometimes not recognised (Windows' licence cache lagged behind). TablePeek now also asks the Store itself who owns what; a confirmed purchase unlocks the extras at once, and opening the Support page checks again.
 
 ### [0.1.0] — 2026-11-14
 
